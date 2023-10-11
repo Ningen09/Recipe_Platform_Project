@@ -28,8 +28,8 @@ export default function Main() {
   const ChefList = () => {
     return (
       <div id="chef-list-wrapper">
-        <div className="chef-list-left">
-          <div className="chef-list-bottom-left-icon"></div>
+        <div className="list-left">
+          <div className="list-bottom-left-icon"></div>
         </div>
         <div className="chef-list-center">
           <div className="chef-list-center-top">
@@ -89,8 +89,8 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="chef-list-right">
-          <div className="chef-list-bottom-right-icon"></div>
+        <div className="list-right">
+          <div className="list-bottom-right-icon"></div>
         </div>
       </div>
     );
@@ -99,10 +99,75 @@ export default function Main() {
   //					component: 최신 게시물 컴포넌트 					//
   const NewRecipe = () => {
     return(
-      <div className="">
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
+      <div id="new-recipe-list-wrapper">
+         <div className="list-left">
+          <div className="list-bottom-left-icon"></div>
+        </div>
+        <div className="new-recipe-list-center">
+          <div className="new-recipe-list-center-top">
+            <div className="new-recipe-list-center-top-title">{"최신 레시피"}</div>
+            <div className="new-recipe-list-center-top-more-button">{"더보기"}</div>
+          </div>
+          <div className="new-recipe-list-center-bottom">
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+          </div>
+        </div>
+        <div className="list-right">
+          <div className="list-bottom-right-icon"></div>
+        </div>
+      </div>
+    )
+  }
+
+  //					component: 키워드 게시물 컴포넌트 					//
+  const KeywordRecipe = () => {
+    return(
+      <div id="new-recipe-list-wrapper">
+          <div className="list-left">
+          <div className="list-bottom-left-icon"></div>
+        </div>
+        <div className="new-recipe-list-center">
+          <div className="new-recipe-list-center-top">
+            <div className="new-recipe-list-center-top-title">{"최신 레시피"}</div>
+            <div className="new-recipe-list-center-top-more-button">{"더보기"}</div>
+          </div>
+          <div className="new-recipe-list-center-bottom">
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+            <div className="new-recipe-box">
+              <div className="new-recipe-image"></div>
+              <div className="new-recipe-title">{"일본 스타일 라멘~"}</div>
+            </div>
+          </div>
+        </div>
+        <div className="list-right">
+          <div className="list-bottom-right-icon"></div>
+        </div>
       </div>
     )
   }
@@ -116,7 +181,7 @@ export default function Main() {
       <ChefList />
       <div className="main-divider"></div>
       <NewRecipe />
-      <div className="main-divider"></div>
+      <KeywordRecipe />
     </>
   );
 }

@@ -107,7 +107,7 @@
     align-items: center;
 }
 
-.chef-list-left {
+.list-left {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,21 +115,21 @@
     margin-left: 26px;
 }
 
-.chef-list-bottom-left-icon{
+.list-bottom-left-icon{
     width: 50px;
     height: 70px;
 
     background-image: url(assets/왼쪽\ 버튼\ 아이콘.png);
 }
 
-.chef-list-right {
+.list-right {
     display: flex;
     justify-content: center;
     align-items: center;
 
     margin-right: 26px;
 }
-.chef-list-bottom-right-icon{
+.list-bottom-right-icon{
     width: 50px;
     height: 70px;
 
@@ -232,4 +232,84 @@
 
     border-radius: 50px;
     border: 1px solid rgba(53, 139, 67, 1);
+}
+
+#new-recipe-list-wrapper {
+    width: 1520px;
+    margin: 40px 0 0;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    border: 1px solid rgba(53, 139, 67, 1);
+    border-left: none;
+    border-right: none;
+}
+
+.new-recipe-list-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.new-recipe-list-center-top {
+
+    margin: 0 64px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-recipe-list-center-top-title {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.new-recipe-list-center-top-more-button {
+    width: 109px;
+    height: 26px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(53, 139, 67, 1);
+
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+
+    border: 1px solid rgba(53, 139, 67, 1);
+    border-radius: 10px;
+}
+
+.new-recipe-list-center-top-more-button:hover {
+    cursor: pointer;
+    background-color: rgba(53, 139, 67, 0.1);
+}
+
+.new-recipe-list-center-bottom{
+    margin: 20px 49px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.new-recipe-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 300px;
+    height: 291px;
+}
+.new-recipe-image{
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    border: none;
+
+    background-image: url(assets/Rectangle\ 19.png);
 }
