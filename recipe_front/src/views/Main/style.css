@@ -1,6 +1,12 @@
+#main-page{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 #main-best-wrapper {
     width: 1520px;
-    padding: 100px 200px 40px;
+    padding: 50px 200px 0;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
@@ -54,13 +60,58 @@
 .main-best-left-icon:hover {
     cursor: pointer;
 }
-
+.main-best-center-image-box{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
 .main-best-center-image {
+    
     width: 880px;
     height: 500px;
     border-radius: 10px;
 
     background-image: url(assets/가운데.png);
+}
+
+.main-best-center-title-box{
+    width: 800px;
+    height: 96px;
+
+    background-color: rgba(0, 0, 0, 0.20);
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 40px 0;
+}
+
+.main-best-center-title{
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 20px;
+    font-weight: 400;
+    
+    
+}
+
+.main-best-center-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 118px;
+    height: 34px;
+
+    border: 1px solid rgba(53, 139, 67, 1);
+    border-radius: 10px;
+
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .main-best-right-image-box {
@@ -101,10 +152,15 @@
 
 #chef-list-wrapper {
     width: 1520px;
-    padding: 20px 200px;
+    margin: 40px 200px 40px;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    border: 1px solid rgba(53, 139, 67, 1);
+    border-left: none;
+    border-right: none;
 }
 
 .list-left {
@@ -112,7 +168,7 @@
     justify-content: center;
     align-items: center;
 
-    margin-left: 26px;
+    padding-left: 26px;
 }
 
 .list-bottom-left-icon{
@@ -127,7 +183,7 @@
     justify-content: center;
     align-items: center;
 
-    margin-right: 26px;
+    padding-right: 26px;
 }
 .list-bottom-right-icon{
     width: 50px;
@@ -218,7 +274,7 @@
 }
 
 .chef-list-center-bottom-subscription{
-    width: 109px;
+    width: 106.5px;
     height: 20px;
 
     display: flex;
@@ -236,8 +292,8 @@
 
 #new-recipe-list-wrapper {
     width: 1520px;
-    margin: 40px 0 0;
-    padding: 20px 200px;
+    margin: 40px 200px 40px;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -269,7 +325,7 @@
 .new-recipe-list-center-top-more-button {
     width: 109px;
     height: 26px;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -291,10 +347,10 @@
 }
 
 .new-recipe-list-center-bottom{
-    margin: 20px 49px 0;
+    margin: 20px 52px 0;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 22px;
 }
 
 .new-recipe-box{
@@ -312,4 +368,84 @@
     border: none;
 
     background-image: url(assets/Rectangle\ 19.png);
+}
+
+#lately-recipe-list{
+    margin: 0 200px 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.lately-recipe-top{
+    margin: 0 128px 0;
+
+    display: flex;
+}
+
+.lately-recipe-top-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lately-recipe-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.lately-recipe-bottom-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 103px;
+}
+
+.left-icon{
+    width: 50px;
+    height: 50px;
+
+    background-image: url(assets/최근\ 본\ 게시물\ 오른쪽\ 버튼\ \(1\).png);
+}
+
+.lately-recipe-bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 103px;
+}
+
+.right-icon{
+    width: 50px;
+    height: 50px;
+
+    background-image: url(assets/최근\ 본\ 게시물\ 왼쪽\ 버튼\ \(1\).png);
+}
+
+.lately-recipe-bottom-center{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.lately-recipe-bottom-center-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lately-recipe-bottom-center-image{
+    width: 236px;
+    height: 184px;
+
+    background-image: url(assets/Rectangle\ 19.png);
+}
+
+.lately-recipe-bottom-center-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-weight: 400;
 }
