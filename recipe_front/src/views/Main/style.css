@@ -54,7 +54,7 @@
 
     width: 50px;
     height: 50px;
-    background-image: url(assets/왼쪽\ 버튼.png);
+    background-image: url(assets/left-button.png);
 }
 
 .main-best-left-icon:hover {
@@ -65,6 +65,11 @@
     display: flex;
     flex-direction: column-reverse;
 }
+
+.main-best-center-image-box:hover{
+    cursor: pointer;
+}
+
 .main-best-center-image {
     
     width: 880px;
@@ -137,7 +142,7 @@
 
     margin-right: 25px;
 
-    background-image: url(assets/오른쪽\ 버튼.png);
+    background-image: url(assets/right-button.png);
 }
 
 .main-best-right-icon:hover {
@@ -290,6 +295,11 @@
     border: 1px solid rgba(53, 139, 67, 1);
 }
 
+.chef-list-center-bottom-subscription:hover{
+    cursor: pointer;
+    background-color: rgba(53, 139, 67, 0.1);
+}
+
 #new-recipe-list-wrapper {
     width: 1520px;
     margin: 40px 200px 40px;
@@ -370,82 +380,3 @@
     background-image: url(assets/Rectangle\ 19.png);
 }
 
-#lately-recipe-list{
-    margin: 0 200px 100px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
-}
-
-.lately-recipe-top{
-    margin: 0 128px 0;
-
-    display: flex;
-}
-
-.lately-recipe-top-title{
-    color: rgba(0, 0, 0, 1);
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.lately-recipe-bottom{
-    display: flex;
-    flex-direction: row;
-}
-
-.lately-recipe-bottom-left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-left: 103px;
-}
-
-.left-icon{
-    width: 50px;
-    height: 50px;
-
-    background-image: url(assets/최근\ 본\ 게시물\ 오른쪽\ 버튼\ \(1\).png);
-}
-
-.lately-recipe-bottom-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-right: 103px;
-}
-
-.right-icon{
-    width: 50px;
-    height: 50px;
-
-    background-image: url(assets/최근\ 본\ 게시물\ 왼쪽\ 버튼\ \(1\).png);
-}
-
-.lately-recipe-bottom-center{
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-}
-
-.lately-recipe-bottom-center-box{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.lately-recipe-bottom-center-image{
-    width: 236px;
-    height: 184px;
-
-    background-image: url(assets/Rectangle\ 19.png);
-}
-
-.lately-recipe-bottom-center-title{
-    color: rgba(0, 0, 0, 1);
-    font-size: 12px;
-    font-weight: 400;
-}

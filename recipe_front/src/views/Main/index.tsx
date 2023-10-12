@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import LatelyRecipe from "components/LatelyListItem";
 
 //					component: 메인 페이지 					//
 export default function Main() {
@@ -230,46 +231,6 @@ export default function Main() {
     );
   };
 
-  //          component: 최근 본 레시피 컴포넌트          //
-  const LatelyRecipe = () => {
-    return (
-      <div id="lately-recipe-list">
-        <div className="lately-recipe-top">
-          <div className="lately-recipe-top-title">{"최근 본 게시물"}</div>
-        </div>
-        <div className="lately-recipe-bottom">
-          <div className="lately-recipe-bottom-left">
-            <div className="left-icon"></div>
-          </div>
-          <div className="lately-recipe-bottom-center">
-            <div className="lately-recipe-bottom-center-box">
-              <div className="lately-recipe-bottom-center-image"></div>
-              <div className="lately-recipe-bottom-center-title">{"일본라멘"}</div>
-            </div>
-            <div className="lately-recipe-bottom-center-box">
-              <div className="lately-recipe-bottom-center-image"></div>
-              <div className="lately-recipe-bottom-center-title">{"일본라멘"}</div>
-            </div>
-            <div className="lately-recipe-bottom-center-box">
-              <div className="lately-recipe-bottom-center-image"></div>
-              <div className="lately-recipe-bottom-center-title">{"일본라멘"}</div>
-            </div>
-            <div className="lately-recipe-bottom-center-box">
-              <div className="lately-recipe-bottom-center-image"></div>
-              <div className="lately-recipe-bottom-center-title">{"일본라멘"}</div>
-            </div>
-            <div className="lately-recipe-bottom-center-box">
-              <div className="lately-recipe-bottom-center-image"></div>
-              <div className="lately-recipe-bottom-center-title">{"일본라멘"}</div>
-            </div>
-          </div>
-          <div className="lately-recipe-bottom-right">
-            <div className="right-icon"></div>
-          </div>
-        </div>
-      </div> 
-    );
-  };
 
   //					render: 메인 페이지 렌더링					//
   return (
