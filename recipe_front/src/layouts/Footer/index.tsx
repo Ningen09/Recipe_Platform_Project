@@ -1,9 +1,20 @@
 import React from 'react'
 import "./style.css"
+import { useLocation } from 'react-router-dom';
 
 
 //          component: 푸터 컴포넌트         //
 export default function Footer() {
+
+    //          function: useLocation 함수        //         
+    const locationNow = useLocation();
+
+
+    //          event handler: 푸터 Hidden 처리              //
+    if(locationNow.pathname ==="/Authentication") return null;
+    if(locationNow.pathname ==="/user") return null;
+    if(locationNow.pathname ==="/membership") return null;
+
 
     //          event handler: 유튜브 아이콘 버튼 클릭 이벤트 처리         //
     const onYoutubeIconClickHandler = () => {

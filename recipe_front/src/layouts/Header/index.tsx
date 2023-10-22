@@ -1,12 +1,21 @@
 import { ChangeEvent, KeyboardEvent, useState, useEffect } from 'react';
 import "./style.css"
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 //          component: 헤더 컴포넌트          //
 export default function Header() {
   
+  //          function: useLocation 함수        //
+  const locationNow = useLocation();
+
   //          function: 네비게이트 함수          //
   const navigator = useNavigate();
+
+
+  //          event handler: 헤더 Hidden 처리       //
+  if(locationNow.pathname ==="/Authentication") return null;
+  if(locationNow.pathname ==="/user") return null;
+  if(locationNow.pathname ==="/membership") return null;
 
   //          event handler: 메인 로고 버튼 클릭 이벤트 처리         //
   const onMainLogoClickHandler = () => {
