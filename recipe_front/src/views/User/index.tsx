@@ -60,36 +60,51 @@ export default function index() {
                                 <div className='nickname-input-box'>
                                     <div className='nickname-input-container'>
                                         <input type="text" />
-                                    <div className='nickname-button-container'>
-                                        <div className='nickname-button-box'>
-                                            <div className='nickname-button-update'>{"수정"}</div>
+                                        <div className='nickname-button-container'>
+                                            <div className='nickname-button-box'>
+                                                <div className='nickname-button-update'>{"수정"}</div>
+                                            </div>
                                         </div>
-                                    </div>
                                     </div>    
                                 </div>    
                             </div>
+                            <div className='password-change-line'></div>
                             <div className='password-update-container'>
-                                    <div className='password-change-line'></div>
-                                    <div className='password-change-text-box'>
-                                        <div className='password-change-text'>{"비밀번호 변경"}</div>
-                                        <div className='password-line'></div>
+                                <div className='password-change-text-box'>
+                                    <div className='password-change-text'>{"비밀번호 변경"}</div>
+                                </div>
+                                <div className='password-line'></div>
+                                <div className='password-change-button-container'>
+                                    <div className='password-change-button-box'>
+                                        <div className='password-change-button'>{"수정"}</div>
                                     </div>
-                                    <div className='password-change-button-container'>
-                                        <div className='password-change-button-box'>
-                                            <div className='password-change-button'>{"수정"}</div>
-                                        </div>
-                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className='withdrawal-container'>
-                        <div className='withdrawal-title'></div>
-                        <div className='update-tip'>{"회원탈퇴 페이지로 이동합니다."}</div>
-                        <div className='withdrawl-text'></div>
-                        <div className='icon-button-update'>{"수정"}</div>
-
+                        <div className='withdrawal-title-box'>
+                            <div className='withdrawal-title'>{"회원탈퇴"}</div>
+                        </div>
+                        <div className='withdrawal-update-container'>
+                            <div className='update-tip-container'>
+                                <ul className='update-tip-box'>
+                                    <li className='update-tip'>{"회원탈퇴 페이지로 이동합니다."}</li>
+                                </ul>
+                            </div>
+                            <div className='password-update-container'>
+                                <div className='withdrawal-text-box'>
+                                    <div className='withdrawal-text'>{"회원탈퇴"}</div>
+                                </div>
+                                <div className='withdrawal-line'></div>
+                                <div className='withdrawal-button-container'>
+                                    <div className='withdrawal-button-box'>
+                                        <div className='withdrawal-button'>{"수정"}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
             </div>
         );
