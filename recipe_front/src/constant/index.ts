@@ -1,0 +1,1 @@
+export const SEARCH_PATH = (word: string) => `/search/${word}`;
