@@ -4,18 +4,9 @@ import { useNavigate } from 'react-router-dom';
 
 //          component: 헤더 컴포넌트          //
 export default function Header() {
-
-  //          state: 검색어 상태          //
-  const [searchWord, setSearchWord] = useState<string>('');
   
   //          function: 네비게이트 함수          //
   const navigator = useNavigate();
-
-  //          event handler: 검색어 변경 이벤트 처리         //
-  const onSearchWordChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value;
-    setSearchWord(value);
-  }
 
   //          event handler: 메인 로고 버튼 클릭 이벤트 처리         //
   const onMainLogoClickHandler = () => {
@@ -24,14 +15,14 @@ export default function Header() {
 
   //          event handler: 검색 버튼 클릭 이벤트 처리         //
   const onSearchButtonClickHandler = () => {
-    navigator(`/search/${searchWord}`);
+    navigator("/search")
     }
 
   //          event handler: 검색 인풋 Enter key down 이벤트 처리          //
   const onSearchEnterKeyDownHandler = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key !== 'Enter') return;
     // if (!searchValue) return;
-    onSearchButtonClickHandler();
+    navigator("/search");
   }
   
   //          component: 로그인 상태에 따라 로그인 혹은 마이페이지 버튼 컴포넌트          //
@@ -83,7 +74,7 @@ export default function Header() {
           </div>
           <div className="header-top-center-box">
             <div className="header-top-center-search">
-              <input className="header-top-center-search-bar" type='text' spellCheck="false" value={searchWord} onChange={onSearchWordChangeHandler} onKeyDown={onSearchEnterKeyDownHandler}/>
+              <input className="header-top-center-search-bar" type='text' spellCheck="false" onKeyDown={onSearchEnterKeyDownHandler}/>
               <div className="icon-button" onClick={onSearchButtonClickHandler}>
                 <div className="search-icon"></div>
               </div>
