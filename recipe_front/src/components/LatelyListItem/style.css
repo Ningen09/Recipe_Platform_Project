@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #lately-recipe-list {
   width: 1520px;
   margin: 0 200px 100px;
@@ -104,3 +105,84 @@
   gap: 12px;
   transition: 0.5s;
 }
+=======
+#lately-recipe-list{
+    margin: 0 200px 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.lately-recipe-top{
+    margin: 0 128px 0;
+
+    display: flex;
+}
+
+.lately-recipe-top-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lately-recipe-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.lately-recipe-bottom-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 103px;
+}
+
+.left-icon{
+    width: 50px;
+    height: 50px;
+
+    background-image: url(assets/left-button.png);
+}
+
+.lately-recipe-bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 103px;
+}
+
+.right-icon{
+    width: 50px;
+    height: 50px;
+
+    background-image: url(assets/right-button.png);
+}
+
+.lately-recipe-bottom-center{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.lately-recipe-bottom-center-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lately-recipe-bottom-center-image{
+    width: 236px;
+    height: 184px;
+
+    background-image: url(assets/Rectangle\ 19.png);
+}
+
+.lately-recipe-bottom-center-title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-weight: 400;
+}
+>>>>>>> f3be6d543e5fa74fe18303d04847d6b929fb578f

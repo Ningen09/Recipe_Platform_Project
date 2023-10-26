@@ -82,11 +82,19 @@
   background-size: 100% 100%;
 }
 
+<<<<<<< HEAD
 .search-icon:hover {
   cursor: pointer;
 
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+=======
+.search-icon:hover{
+    cursor: pointer;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px; 
+>>>>>>> f3be6d543e5fa74fe18303d04847d6b929fb578f
 }
 
 .header-top-right-box {
@@ -104,11 +112,27 @@
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .header-top-right-sign-in:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.1);
 
   border-radius: 10px;
+=======
+.header-top-right-sign-in:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+}
+
+.header-top-right-divider{
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+>>>>>>> f3be6d543e5fa74fe18303d04847d6b929fb578f
 }
 
 .header-top-right-divider {
@@ -119,12 +143,38 @@
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .header-top-right-sign-up {
   color: rgba(0, 0, 0, 0.7);
   font-family: 'SUIT';
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+=======
+.header-top-right-sign-up:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+}
+
+.header-top-right-upload-button{
+    width: 108px;
+    height: 40px;
+    border-radius: 5px;
+
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 17px;
+    font-weight: 400;
+
+    background-color: rgba(53, 139, 67, 1);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> f3be6d543e5fa74fe18303d04847d6b929fb578f
 }
 
 .header-top-right-sign-up:hover {
@@ -170,6 +220,7 @@
   gap: 20px;
 }
 
+<<<<<<< HEAD
 .header-navi-bar:hover {
   cursor: pointer;
 }
@@ -181,6 +232,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+.navi-menu:hover{
+    background-color: rgba(53, 139, 67, 0.5);
+}
+>>>>>>> f3be6d543e5fa74fe18303d04847d6b929fb578f
 
   width: 365px;
   height: 48px;
