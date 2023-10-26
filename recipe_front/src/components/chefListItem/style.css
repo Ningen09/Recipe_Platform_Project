@@ -1,0 +1,81 @@
+.chef-list-center-bottom-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chef-list-center-bottom-profile-image-box:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.chef-list-center-bottom-profile-image {
+  width: 109px;
+  height: 109px;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  border-radius: 50% 50%;
+}
+
+.chef-list-center-bottom-nickname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 109px;
+  height: 44px;
+
+  background-color: rgba(217, 217, 217, 0.5);
+
+  color: rgba(0, 0, 0, 1);
+  font-family: 'SUIT';
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.chef-list-center-bottom-subscription {
+  width: 106.5px;
+  height: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  font-family: 'SUIT';
+  color: rgba(53, 139, 67, 1);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+
+  border-radius: 50px;
+  border: 1px solid rgba(53, 139, 67, 1);
+}
+
+.chef-list-center-bottom-subscription:hover {
+  cursor: pointer;
+  background-color: rgba(53, 139, 67, 0.1);
+}
+
+.chef-list-center-bottom-subscription-on {
+  width: 106.5px;
+  height: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'SUIT';
+  color: rgba(255, 255, 255, 1);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+
+  background-color: rgba(53, 139, 67, 1);
+  border-radius: 50px;
+  border: 1px solid rgba(53, 139, 67, 1);
+}
+
+.chef-list-center-bottom-subscription-on:hover {
+  cursor: pointer;
+  background-color: rgba(53, 139, 67, 0.8);
+}

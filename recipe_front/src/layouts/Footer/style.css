@@ -1,4 +1,5 @@
 #footer{
+    width: 1920px;
     padding: 50px 0;
     
     display: flex;
@@ -11,6 +12,8 @@
 .footer-box{
     width: 1620px;
     height: 200px;
+
+    /* margin: 50px 0; */
 
     display: flex;
     justify-content: space-between;
@@ -39,7 +42,7 @@
 
 .footer-copyright{
     color: rgba(255, 255, 255, 0.70);
-    font-family: Inter;
+    font-family: 'SUIT';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +62,7 @@
 
 .campus-name{
     color: rgba(255, 255, 255, 0.50);
-    font-family: Inter;
+    font-family: 'SUIT';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -73,7 +76,7 @@
 
 .campus-tel-number{
     color: rgba(255, 255, 255, 0.50);
-    font-family: Inter;
+    font-family: 'SUIT';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
