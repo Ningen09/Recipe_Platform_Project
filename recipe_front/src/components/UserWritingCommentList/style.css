@@ -1,0 +1,170 @@
+.user-writing-comment-box {
+    width: 280px;
+    height: 600px;
+}
+
+.user-writing-comment-image {
+    width: 280px;
+    height: 170px;
+    background-color: bisque;
+}
+
+.user-writing-comment-image-url {
+}
+
+.user-writing-comment-recipe-container {
+    width: 280px;
+    height: 130px;
+
+    position: relative;
+
+    border-bottom: 1px solid #358B43;
+
+    background: rgba(255, 255, 255, 1);
+}
+
+.user-writing-comment-title {
+    width: 258px;
+    height: 64px;
+
+    margin-top: 20px;
+    margin-right: 11px;
+    margin-left: 11px;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-writing-comment-write-nickname {
+    width: 258px;
+    height: 46px;
+
+    margin-left: 11px;
+    margin-right: 11px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+
+    color: #AEAEAE;
+
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: normal;
+    text-align: right;
+}
+
+.user-writing-comment-container {
+    width: 258px;
+    height: 210px;
+
+    padding-left: 11px;
+    padding-right: 11px;
+
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+}
+
+.user-writing-comment-nickname {
+    width: 258px;
+    height: 46px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #AEAEAE;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-writing-comment-contents {
+    width: 258px;
+    height: auto;
+
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-writing-comment-datetime {
+    width: 258px;
+    height: 46px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    position: absolute;
+    bottom: 10px;
+
+    color: #AEAEAE;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+}
+
+.user-writing-comment-button-box {
+    width: 280px;
+    height: 40px;
+    padding-right: 20px;
+
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+
+    position: absolute;
+}
+
+.user-writing-comment-button-delete {
+    width: 100px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 10px;
+    border: 1px solid #358B43;
+    background: rgba(255, 255, 255, 1);
+
+    color: #358B43;
+    text-align: center;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-writing-comment-button-modify {
+    width: 100px;
+    height: 40px;
+    
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 10px;
+    border: 1px solid #358B43;
+    background: rgba(255, 255, 255, 1);
+
+    color: #358B43;
+    text-align: center;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
